@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pizza Común",
+        "precio": 1200
+        
+    },
+    {
+        "id": 2,
+        "nombre": "Pizza Especial",
+        "precio": 2000
+    
+    },
+    {
+        "id": 3,
+        "nombre": "Pizza con salame",
+        "precio": 1800
+    
+    },
+    {
+        "id": 4,
+        "nombre": "Hamburguesa común",
+        "precio": 1300
+    
+    },
+    {
+        "id": 5,
+        "nombre": "Hamburguesa especial",
+        "precio": 1600
+    
+    },
+    {
+        "id": 6,
+        "nombre": "Papas Fritas",
+        "precio": 800
+    
+    }
+]
