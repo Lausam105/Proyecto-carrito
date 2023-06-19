@@ -3,6 +3,8 @@ body{
   
 
 }
+
+
 header, .alert{
   display: flex;
   flex-direction: row;
@@ -62,13 +64,13 @@ li{
   display: flex;
 }
 .table__productos > img{
-  width: 9rem;
+  width: 7rem;
   object-fit: contain;
   border-radius: 6px;
   margin-right: 20px;
 }
 .table__cantidad > input{
-  width: 40px;
+  width: 30px;
   border: none;
   outline: 0;
   font-size: 16px;
@@ -149,4 +151,49 @@ td:hover{
   background-color: rgb(247, 248, 245);
   color:rgb(20, 19, 19);
   width: 200px;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+  
+  .logo{
+    width: 100px;
+    height: 120px;
+    
+  }
+  li{
+    font-size: 0.8rem;
+    margin-top:20px;
+    margin: auto;
+    
+  }
+  .img-carr{
+    height: 330px;
+  }
+
+  .carousel-item{
+    margin-top: 40px;
+  }
+
+  .final{
+    height: 60vh;
+    background-color: black;
+    margin-top: 200px;
+  }
+
+  #table3{
+    margin-left: 15px;
+    
+  }
+
+  .table{
+    width: 50%!important;
+  }
+
+ 
+  
+  
+
+  
+  
+  
 }
