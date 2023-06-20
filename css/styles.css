@@ -1,7 +1,16 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
   background-image:url(../img/fondo.PNG);
-  
 
+}
+.cabecera{
+  width: 100%;
+  
 }
 
 
@@ -64,7 +73,7 @@ li{
   display: flex;
 }
 .table__productos > img{
-  width: 7rem;
+  width: 5rem;
   object-fit: contain;
   border-radius: 6px;
   margin-right: 20px;
@@ -153,12 +162,18 @@ td:hover{
   width: 200px;
 }
 
-@media only screen and (min-width:320px) and (max-width:768px){
-  
+@media only screen and (min-width:300px) and (max-width:768px){
+  body{
+    width: 800px;
+  }
+
   .logo{
     width: 100px;
     height: 120px;
     
+  }
+  .titulo{
+    width: 100%;
   }
   li{
     font-size: 0.8rem;
@@ -189,11 +204,9 @@ td:hover{
     width: 50%!important;
   }
 
- 
-  
-  
-
-  
-  
-  
+}
+@media only screen and (min-width:500px) and (max-width:768px){
+    body{
+      width: 800px;
+    }
 }
