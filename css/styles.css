@@ -164,7 +164,7 @@ td:hover{
 
 @media only screen and (min-width:300px) and (max-width:768px){
   body{
-    width: 800px;
+    width: 500px;
   }
 
   .logo{
@@ -176,7 +176,7 @@ td:hover{
     width: 100%;
   }
   li{
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-top:20px;
     margin: auto;
     
@@ -190,9 +190,11 @@ td:hover{
   }
 
   .final{
-    height: 60vh;
+    position:relative;
+    top:220px;
+    height: 30%;
     background-color: black;
-    margin-top: 200px;
+    
   }
 
   #table3{
